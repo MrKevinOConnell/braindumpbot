@@ -1,0 +1,13 @@
+{
+  "name": "braindump",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@neynar/nodejs-sdk": "^1.38.1",
+    "@supabase/supabase-js": "^2.44.4",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "openai": "^4.53.0"
+  }
+}
