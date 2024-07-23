@@ -100,7 +100,7 @@ async function generate_prompt() {
 
     const system_prompt = {
       role: "system",
-      content: `You are an AI designed to generate a thought-provoking 1023 character question of the day for users in the style of the examples.
+      content: `You are an AI designed to generate a thought-provoking max 1023 character question of the day for users in the style of the examples.
     
     Your questions should be written in the style of the examples given. Take your time.
     
@@ -124,7 +124,7 @@ async function generate_prompt() {
     const chat_completion = await openai.chat.completions.create({
       messages: [system_prompt],
       model: "gpt-4o-mini",
-      max_tokens: 180,
+      max_tokens: 160,
       temperature: 0.6,
     });
 
