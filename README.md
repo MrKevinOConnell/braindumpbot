@@ -1,5 +1,5 @@
 # Braindump bot
-This bot is used to automate question generation for the [Braindump](https://warpcast.com/~/channel/braindump) channel on [Farcaster](https://www.farcaster.xyz/). Every tuesday, thursday and saturday it will generate a question.
+This bot is used to automate question generation for the [Braindump](https://warpcast.com/~/channel/braindump) channel on [Farcaster](https://www.farcaster.xyz/). Every Tuesday, Thursday and Saturday it will generate a question.
 
 ## Resources
 - [node js open ai library](https://github.com/openai/openai-node) for prompting
@@ -8,8 +8,7 @@ This bot is used to automate question generation for the [Braindump](https://war
 - [Railway](https://railway.app?referralCode=aKwJhG) for deployment
 
 
-
-
 ## Start
-```node index.js```
+
+```yarn && node index.js```
 
