@@ -112,9 +112,7 @@ async function generate_prompt() {
     
     [First thought of the question]
     
-    [Second thought of the question]
-    
-    [Third thought of the question]"
+    [Second thought of the question]"
     
     Here are the examples to write in the style of:
     ${examples.join(`\n`)}`,
@@ -124,7 +122,7 @@ async function generate_prompt() {
     const chat_completion = await openai.chat.completions.create({
       messages: [system_prompt],
       model: "gpt-4o-mini",
-      max_tokens: 160,
+      max_tokens: 140,
       temperature: 0.6,
     });
 
