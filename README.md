@@ -1,3 +1,4 @@
+# Braindump bot
 This bot is used to automate question generation for the [Braindump](https://warpcast.com/~/channel/braindump) channel on farcaster. Every tuesday, thursday and saturday it will generate a question.
 
 ## Resources
