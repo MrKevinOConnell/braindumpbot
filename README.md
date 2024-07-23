@@ -11,4 +11,4 @@ This bot is used to automate question generation for the [Braindump](https://war
 
 
 ## Start
-node index.js
+```node index.js```
