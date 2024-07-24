@@ -111,7 +111,7 @@ async function generate_prompt() {
     "Question of the day:
     
     [First thought of the question]
-    
+
     [Second thought of the question]"
     
     Here are the examples to write in the style of:
@@ -122,8 +122,8 @@ async function generate_prompt() {
     const chat_completion = await openai.chat.completions.create({
       messages: [system_prompt],
       model: "gpt-4o-mini",
-      max_tokens: 140,
-      temperature: 0.6,
+      max_tokens: 120,
+      temperature: 0.65,
     });
 
     const text = chat_completion.choices[0].message.content;
